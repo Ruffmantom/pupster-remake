@@ -28,6 +28,52 @@ h1{
     font-size: 4rem;
 }
 
+
+/* _______Discover______ */
+.cardCont{
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    width: 500px;
+    margin: 40px auto;
+    border-radius: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.card-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    position: absolute;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+.pick{
+    right: 20px;
+    bottom: 20px;
+    background-color: #43a047;
+}
+.pick:hover{
+    font-size: 27px;
+    cursor: pointer;
+}
+.pass{
+    bottom: 20px;
+    left: 20px;
+    background-color: #e53935;
+}
+.pass:hover{
+    font-size: 27px;
+    cursor: pointer;
+}
 /* _______footer______ */
 
 .footer{
