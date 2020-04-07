@@ -74,6 +74,23 @@ h1{
     font-size: 27px;
     cursor: pointer;
 }
+/* _______Search______ */
+.alert{
+    display: none;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+}
+.formCont{
+    display: flex;
+    flex-direction: column;
+}
+.addPad{
+    margin: 15px 0;
+}
 /* _______footer______ */
 
 .footer{
